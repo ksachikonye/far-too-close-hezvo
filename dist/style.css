@@ -1,0 +1,33 @@
+html, body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+body {
+  position: relative;
+}
+
+#app {
+  display: none;
+}
+
+#loader {
+  line-height: 100vh;
+  text-align: center;
+}
+
+#canvas,
+#video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+}
+
+#canvas {
+  background: black;
+}
+
+:focus {
+  outline: none;
+}
